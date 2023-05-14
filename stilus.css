@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box; /* lehetővé teszi, hogy belefoglaljuk a kitöltést és a szegélyt az elem teljes szélességébe és magasságába.*/
+  }
+  
+  body {
+    font-family: 'Pacifico', cursive; /* a betű típusa */
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #3af2bb; /* a háttér színe */
+    padding: 30px; /*belső margó*/
+    text-align: center; /*középre igazít*/
+    font-size: 35px;/*betű méret*/
+    color: white; /* a betű színe */
+  }
+  
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+    float: left;/*mozgás balra*/
+    width: 20%;/*szélesség*/
+    height: 400px; /* only for demonstration, should be removed */
+    background:#b8ffea;/*háttérszín*/
+    padding: 20px;
+    
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;/*megadja a listaelem-jelölő típusát a listában.*/
+    padding: 0;
+  }
+  
+  article {
+    float: left; /*lebegés*/
+    padding: 20px;
+    width: 80%;
+    background-color: #a6f6f7;
+   /* only for demonstration, should be removed */
+  }
+  
+  /* Clear floats after the columns */
+  section::after {
+    content: ""; /* zárójelbe szúrja be a href attribútum értékét*/
+    display: table; /* A tulajdonság értéke a HTML specifikációiból származik*/
+    clear: both;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #3af2bb;
+    padding: 10px;
+    text-align: center; /*középre helyez*/
+    color: white;
+  }
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px; /*meghatározza az elem sarkainak sugarát.*/
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px; /*teret hozzon létre az elemek körül, bármely meghatározott határon kívül
+*/
+    text-align: center;
+    float: left;
+  }
+  
+  .card img {
+    height: 100px; /* magasság*/
+    border-radius: 5px 5px 0 0;
+    margin: auto;
+    display: block;
+  }
+  
+  .card-text {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .card-text h2 {
+    font-size: 24px; /* doboz mérete*/
+    margin-bottom: 10px; /*alsó margó*/
+  }
+  
+  .card-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* szöveg dekoráció*/
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .btn2:hover, .card:hover {
+    background-color:#0a6940;
+  }
+  .btn2 {
+    display: inline-block;
+    background-color: #3af2bb;
+    color:black;
+    padding: 10px 20px;
+    border-radius: 5px; /*meghatározza az elem sarkainak sugarát.*/
+    text-decoration: none; /* szöveg dekoráció*/
+    transition: background-color 0.3s ease;
+    width: 80%;
+    margin-bottom: 30px;
+  }

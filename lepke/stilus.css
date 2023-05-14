@@ -1,0 +1,49 @@
+body{
+    background-color:#2F4F4F;
+}
+
+h1{
+    color:white;
+    text-align: center;
+}
+
+div{
+    width: 640px;
+    margin: auto;
+    background-image: url('kepek/hatter.jpg');
+    padding: 50px; 
+
+h2{
+    text-align: left: ;
+}
+
+a{
+    font-size: 20px;
+    text-align: left;
+}
+
+p{
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+.jobbrakep{
+    float: left;
+    margin: auto;
+    
+}
+
+#balrakep{
+    float: right;
+}
+
+table{
+    width: 640px;
+    border: 0;
+    
+    background-color: black;
+#k3{
+    float: left;
+}
+

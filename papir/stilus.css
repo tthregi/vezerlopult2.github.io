@@ -1,0 +1,63 @@
+body{
+    background-color:#999999 ;
+    text-align: center ;
+   
+}
+#cim{
+    margin: auto;
+    display: block;
+}
+div{
+    width: 670px;
+    color: black;
+    margin: auto;
+    background-color: white;}
+
+img{
+    margin: auto;
+}
+
+#sor{
+    background-color: whiteú;
+    width: 650px;
+    margin: auto;
+}
+h1{
+    display: block;
+    background-color: white;
+    width: 650px;
+    margin: auto;
+    margin-top: auto;
+}
+#img2{
+    float: left;
+    margin-top: 2%;
+}
+ 
+h2{
+    float: left;
+
+}
+p{
+    margin-top: 10%;
+}   
+#img3{
+    float: left;
+    margin-top: 40%;
+
+}
+
+#p1{
+    float: left;
+    margin-top: 40%;
+}
+#kep{
+    margin: auto;
+    text-align: center;
+    margin-right: 180px;
+}
+
+#jell{
+    margin-top: 16px;
+    float: left;
+}
