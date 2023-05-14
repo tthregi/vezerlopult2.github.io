@@ -1,0 +1,29 @@
+h2{
+    text-align: center;
+}
+div{
+    margin: auto;
+    text-align: center;
+    color: black;
+    background-color: plum;
+    font-family: 'Tilt Prism', cursive;
+    
+}
+body{
+    background-color:purple;
+}
+.btn{
+    display: inline-block;
+    font-family: 'Tilt Prism', cursive;
+    color:black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    width: 80%;
+    margin-bottom: 30px;
+    background-color: rgb(152, 69, 153);
+}
+.btn:hover, .card:hover {
+    background-color:rgb(55, 9, 55);
+  }
